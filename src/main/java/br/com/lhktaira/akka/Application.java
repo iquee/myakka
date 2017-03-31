@@ -25,7 +25,15 @@ public class Application {
         botMaster.tell(
                 new Move(Direction.BACKWARDS),
                 ActorRef.noSender());
-                */
+
+        botMaster.tell(
+                new Move(Direction.LEFT),
+                ActorRef.noSender());
+
+        botMaster.tell(
+                new Move(Direction.RIGHT),
+                ActorRef.noSender());
+         */
 
         botMaster.tell(
                 new Stop(),
