@@ -1,4 +1,4 @@
-package br.com.lhktaira.akka;
+package com.github.iquee.akka;
 
 import akka.actor.AbstractActor;
 
